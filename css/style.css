@@ -1,0 +1,55 @@
+/* main icon 3AM*/
+.mainIcon
+{
+font-size: xxx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* categoriesLink */
+.categoriesLink
+{
+margin-top: 10px;
+}
+/* nav-bar links*/
+li{
+	font-size: 25px;
+}
+/* green lable*/
+.label-success
+{
+height: 30px;
+}
+
+.favorateArea
+{
+background: rgb(225, 243, 255);
+/*height: 400px;*/
+width: 300px;
+}
+.favorateAreaBody
+{
+	background: rgba(255, 215, 82, 0.911);
+	margin-top: 3px;
+	width: 300px;
+}
+.productTitle
+{ 
+	margin-left: 200px;
+	font-size: 100px;
+}
+.label-default 
+{
+	font-size: 20px;
+	margin-left: 250px;
+}
+.label-danger
+{
+	font-size: 20px;
+	margin-left: 3px;
+}
+.productDes
+{
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	float: center;
+}

@@ -1,0 +1,21 @@
+.userInfo
+{
+    margin-top: 100px;
+}
+.usernameLabel
+{
+    margin-left: 110px;
+}
+
+.emailLabel ,.passwordLabel ,.phoneNumberLabel ,.addressLabel ,.label-default
+{
+    font-size: 20px;
+}
+.backBtn
+{
+    margin-left: 220px;
+}
+.changeImgBtn
+{
+    margin-left: 150px;
+}

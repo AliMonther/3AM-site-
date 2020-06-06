@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <title>3AM</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/indexPageStyle.css"/>
+    <script src="js/html5shiv.min"></script>
+    <script src="js/respond.min.js"></script>
+</head >
+<body  >
+
+
+<div class=" content" style=" background-image: url('imgs/headerBack.jpg');height: 640px;" >
+<div class="col-lg-4">
+    <div class="signUpForm">
+    </br>
+    <form class="signUpForm"  method="POST" action="signUpProccess.php">
+        <div class="form-group">
+            <label for="username">username</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="enter your username">
+        </div>
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="enter your email">
+        </div>
+        <div class="form-group">
+            <label for="password">password</label>
+            <input type="password" id="password" name="password"  class="form-control" placeholder="enter your password">
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="number" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="enter your Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="address">address</label>
+            <input type="text" id="address" name="address"  class="form-control" placeholder="enter your address">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-default signUpBtn" name="signUpBtn">signup</button>
+        </div>
+        <div class="form-group">
+            <a class="loginLink" href="#" >  have account login</a>
+        </div>
+    
+    </form>
+    </div>
+
+</div>
+<div class="col-lg-4 col-xs-12">
+    <div class="loginForm">
+    </br>
+    <form class="loginForm" method="POST" action="loginProcces.php">
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email"  class="form-control" placeholder="enter your email">
+        </div>
+        <div class="form-group">
+            <label for="passord">password</label>
+            <input type="password" id="password" name="password"  class="form-control" placeholder="enter your password">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-default loginBtn" name="loginBtn">login</button>
+        </div>
+        <div class="form-group">
+            <a class="signUpLink" href="#"> do not have account ! sign up</a>
+        </div>
+        <div>
+            <span class="label label-danger" id="errorLabel">email or password encorrect</span>
+        </div>
+    
+    </form>
+    </div>
+
+</div>
+
+<div class="col-xs-12 " id="mainTitle">
+    <p> Search about every think</p>
+    </div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-v3.5.0.js"></script>
+<script src="js/indexPageScript.js"></script>
+</body>
+</html>
